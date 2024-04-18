@@ -11,9 +11,6 @@
         
     </head>
     <body>
-        <h1 class="text-3xl font-bold underline">
-            Hello world!
-        </h1>
         <x-layout.navbar></x-layout.navbar>
         {{$slot}}
         <x-layout.footer></x-layout.footer>
