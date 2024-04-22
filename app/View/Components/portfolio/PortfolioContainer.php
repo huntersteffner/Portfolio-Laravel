@@ -1,14 +1,14 @@
 <?php
 
-namespace App\View\Components\home;
+namespace App\View\Components\Portfolio;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class portfolio extends Component
+class PortfolioContainer extends Component
 {
-
+    
     public array $items = [];
     public array $tabs = [];
     /**
@@ -41,6 +41,14 @@ class portfolio extends Component
                 'repoLink' => 'https://github.com/huntersteffner/bnb-network',
                 'deployedSite' => 'https://bnb-network.vercel.app/'
             ],
+            [
+                'title' => 'The Local Gym',
+                'category' => ['Personal Project', 'React', 'Tailwind'],
+                'description' => 'A gym website template ready to be adjusted to suit other website\'s needs. Can be used for freelance work. Almost all CSS styling was custom designed',
+                'repoAvailable' => true,
+                'repoLink' => 'https://github.com/huntersteffner/Gym',
+                'deployedSite' => 'https://huntersteffner.github.io/Gym/'
+            ],
         ];
 
         $this->tabs = ['Professional Work', 'Personal Projects', 'React', 'Angular','Bootstrap','Tailwind'];
@@ -51,6 +59,6 @@ class portfolio extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.home.portfolio');
+        return view('components.portfolio.portfolio-container');
     }
 }
