@@ -23,7 +23,9 @@ class PortfolioContainer extends Component
                 'description' => 'This is the main site I work on for my full-time position at Electrolux. It is an ecommerce site for Frigidaire appliances.',
                 'repoAvailable' => false,
                 'repoLink' => '',
-                'deployedSite' => 'https://www.frigidaire.com/en/'
+                'deployedSite' => 'https://www.frigidaire.com/en/',
+                'image' => 'img/portfolio/Frigidaire.PNG',
+                'altText' => 'Frigidaire Ecommerce Homepage'
             ],
             [
                 'title' => 'Electrolux',
@@ -31,7 +33,9 @@ class PortfolioContainer extends Component
                 'description' => 'This is a site I regularly work on for my full-time position at Electrolux. It is an ecommerce site for Electrolux appliances.',
                 'repoAvailable' => false,
                 'repoLink' => '',
-                'deployedSite' => 'https://www.electrolux.com/en/'
+                'deployedSite' => 'https://www.electrolux.com/en/',
+                'image' => 'img/portfolio/Electrolux.PNG',
+                'altText' => 'Electrolux Ecommerce Homepage'
             ],
             [
                 'title' => 'Bnb Network',
@@ -39,7 +43,9 @@ class PortfolioContainer extends Component
                 'description' => 'This is a Full Stack Bed and Breakfast website that was inspired by AirBnb. Users can register, login, create bnb locations, book trips to existing locations, and view complete trip history. UI was made mostly with the Daisy UI Tailwind Library',
                 'repoAvailable' => true,
                 'repoLink' => 'https://github.com/huntersteffner/bnb-network',
-                'deployedSite' => 'https://bnb-network.vercel.app/'
+                'deployedSite' => 'https://bnb-network.vercel.app/',
+                'image' => 'img/portfolio/Bnb-Network.png',
+                'altText' => 'BNB Network - A mockup of a room sharing website'
             ],
             [
                 'title' => 'The Local Gym',
@@ -47,7 +53,9 @@ class PortfolioContainer extends Component
                 'description' => 'A gym website template ready to be adjusted to suit other website\'s needs. Can be used for freelance work. Almost all CSS styling was custom designed',
                 'repoAvailable' => true,
                 'repoLink' => 'https://github.com/huntersteffner/Gym',
-                'deployedSite' => 'https://huntersteffner.github.io/Gym/'
+                'deployedSite' => 'https://huntersteffner.github.io/Gym/',
+                'image' => 'img/portfolio/Local-Gym.jpg',
+                'altText' => 'A mockup of a Gym Website'
             ],
         ];
 
