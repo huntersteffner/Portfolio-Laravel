@@ -25,7 +25,8 @@ class PortfolioContainer extends Component
                 'repoLink' => '',
                 'deployedSite' => 'https://www.frigidaire.com/en/',
                 'image' => 'img/portfolio/Frigidaire.PNG',
-                'altText' => 'Frigidaire Ecommerce Homepage'
+                'altText' => 'Frigidaire Ecommerce Homepage',
+                'projectType' => 'Professional Work'
             ],
             [
                 'title' => 'Electrolux',
@@ -35,7 +36,8 @@ class PortfolioContainer extends Component
                 'repoLink' => '',
                 'deployedSite' => 'https://www.electrolux.com/en/',
                 'image' => 'img/portfolio/Electrolux.PNG',
-                'altText' => 'Electrolux Ecommerce Homepage'
+                'altText' => 'Electrolux Ecommerce Homepage',
+                'projectType' => 'Professional Work'
             ],
             [
                 'title' => 'Bnb Network',
@@ -45,7 +47,8 @@ class PortfolioContainer extends Component
                 'repoLink' => 'https://github.com/huntersteffner/bnb-network',
                 'deployedSite' => 'https://bnb-network.vercel.app/',
                 'image' => 'img/portfolio/Bnb-Network.png',
-                'altText' => 'BNB Network - A mockup of a room sharing website'
+                'altText' => 'BNB Network - A mockup of a room sharing website',
+                'projectType' => 'Personal Project'
             ],
             [
                 'title' => 'The Local Gym',
@@ -55,7 +58,8 @@ class PortfolioContainer extends Component
                 'repoLink' => 'https://github.com/huntersteffner/Gym',
                 'deployedSite' => 'https://huntersteffner.github.io/Gym/',
                 'image' => 'img/portfolio/Local-Gym.jpg',
-                'altText' => 'A mockup of a Gym Website'
+                'altText' => 'A mockup of a Gym Website',
+                'projectType' => 'Personal Project'
             ],
         ];
 

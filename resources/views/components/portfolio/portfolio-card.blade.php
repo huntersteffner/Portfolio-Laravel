@@ -1,6 +1,9 @@
-<section class="space-y-4 border-2 border-solid border-white rounded-lg">
+<section class="border-2 border-solid border-white rounded-lg relative">
   <div class="h-[15rem] w-full">
-    <img class="object-cover h-full w-full" src="{{$item['image']}}" alt="{{$item['altText']}}">
+    <img class="object-cover h-full w-full rounded-t-md" src="{{$item['image']}}" alt="{{$item['altText']}}">
+  </div>
+  <div class="absolute top-0 left-0 px-2 py-1 text-white {{$item['projectType'] == 'Professional Work' ? 'bg-red-700' : 'bg-green-700'}} rounded opacity-85">
+    <p class="text-lg font-bold">{{$item['projectType']}}</p>
   </div>
   <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
     {{$item['title']}}
