@@ -11,7 +11,7 @@
                 Speak to Sales
             </a> 
         </div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+        <div class="lg:mt-0 lg:col-span-5 lg:flex">
             <img src="{{'/img/Hunter-on-subway.jpg'}}" alt="mockup">
         </div>                
     </div>
