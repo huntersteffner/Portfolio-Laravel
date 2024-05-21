@@ -8,6 +8,7 @@ use Illuminate\View\Component;
 
 class Navbar extends Component
 {
+    public string $testString = 'hola';
     /**
      * Create a new component instance.
      */

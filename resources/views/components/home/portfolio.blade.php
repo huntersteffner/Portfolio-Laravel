@@ -1,4 +1,4 @@
-<section class="bg-white dark:bg-gray-900 antialiased"
+<section class="antialiased"
   x-data="
         {
           selectedTab: 'all'
