@@ -9,12 +9,18 @@ use Illuminate\View\Component;
 class Navbar extends Component
 {
     public string $testString = 'hola';
+    public array $navigationItems = [];
     /**
      * Create a new component instance.
      */
     public function __construct()
     {
-        //
+        $this->navigationItems = [
+            ['label' => 'Home', 'download' => false, 'url' => '/'],
+            ['label' => 'Portfolio', 'download' => false, 'url' => '/portfolio'],
+            ['label' => 'Contact', 'download' => false, 'url' => '/contact'],
+            ['label' => 'Resume', 'download' => true, 'url' => 'Matthew-Hunter-Steffner-Resume.pdf'],
+        ];
     }
 
     /**

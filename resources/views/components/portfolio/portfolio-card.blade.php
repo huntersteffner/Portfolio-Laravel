@@ -1,4 +1,4 @@
-<section class="border-2 border-solid border-white rounded-lg relative">
+<section class="pb-4 border-2 border-solid border-white rounded-lg relative">
   <div class="h-[15rem] w-full">
     <img class="object-cover h-full w-full rounded-t-md" src="{{$item['image']}}" alt="{{$item['altText']}}">
   </div>
@@ -8,7 +8,7 @@
   <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
     {{$item['title']}}
   </h3>
-  <div class="h-[10rem]">
+  <div class="h-[12rem]">
     <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
       {{$item['description']}}
     </p>

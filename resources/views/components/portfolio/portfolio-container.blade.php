@@ -8,7 +8,7 @@
         Here are some of the projects I've been working on.
       </p>
     </div>
-    <div>
+    {{-- <div>
       <ul class="flex justify-center">
         <li>
           <button class="text-white inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition">All</button>
@@ -19,7 +19,7 @@
         </li>
         @endforeach
       </ul>
-    </div>
+    </div> --}}
     <div class="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
       @foreach($items as $item)
       <x-portfolio.portfolio-card

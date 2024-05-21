@@ -23,7 +23,10 @@ class portfolio extends Component
                 'description' => 'This is the main site I work on for my full-time position at Electrolux. It is an ecommerce site for Frigidaire appliances.',
                 'repoAvailable' => false,
                 'repoLink' => '',
-                'deployedSite' => 'https://www.frigidaire.com/en/'
+                'deployedSite' => 'https://www.frigidaire.com/en/',
+                'image' => 'img/portfolio/Frigidaire.PNG',
+                'altText' => 'Frigidaire Ecommerce Homepage',
+                'projectType' => 'Professional Work'
             ],
             [
                 'title' => 'Electrolux',
@@ -31,7 +34,10 @@ class portfolio extends Component
                 'description' => 'This is a site I regularly work on for my full-time position at Electrolux. It is an ecommerce site for Electrolux appliances.',
                 'repoAvailable' => false,
                 'repoLink' => '',
-                'deployedSite' => 'https://www.electrolux.com/en/'
+                'deployedSite' => 'https://www.electrolux.com/en/',
+                'image' => 'img/portfolio/Electrolux.PNG',
+                'altText' => 'Electrolux Ecommerce Homepage',
+                'projectType' => 'Professional Work'
             ],
             [
                 'title' => 'Bnb Network',
@@ -39,7 +45,10 @@ class portfolio extends Component
                 'description' => 'This is a Full Stack Bed and Breakfast website that was inspired by AirBnb. Users can register, login, create bnb locations, book trips to existing locations, and view complete trip history. UI was made mostly with the Daisy UI Tailwind Library',
                 'repoAvailable' => true,
                 'repoLink' => 'https://github.com/huntersteffner/bnb-network',
-                'deployedSite' => 'https://bnb-network.vercel.app/'
+                'deployedSite' => 'https://bnb-network.vercel.app/',
+                'image' => 'img/portfolio/Bnb-Network.png',
+                'altText' => 'BNB Network - A mockup of a room sharing website',
+                'projectType' => 'Personal Project'
             ],
         ];
 
