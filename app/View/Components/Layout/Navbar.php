@@ -16,10 +16,30 @@ class Navbar extends Component
     public function __construct()
     {
         $this->navigationItems = [
-            ['label' => 'Home', 'download' => false, 'url' => '/'],
-            ['label' => 'Portfolio', 'download' => false, 'url' => '/portfolio'],
-            ['label' => 'Contact', 'download' => false, 'url' => '/contact'],
-            ['label' => 'Resume', 'download' => true, 'url' => 'Matthew-Hunter-Steffner-Resume.pdf'],
+            [
+                'label' => 'Home',
+                'download' => false,
+                'url' => '/',
+                'pageType' => '/'
+            ],
+            [
+                'label' => 'Portfolio',
+                'download' => false,
+                'url' => '/portfolio',
+                'pageType' => 'portfolio'
+            ],
+            [
+                'label' => 'Contact',
+                'download' => false,
+                'url' => '/contact',
+                'pageType' => 'contact'
+            ],
+            [
+                'label' => 'Resume',
+                'download' => true,
+                'url' => 'Matthew-Hunter-Steffner-Resume.pdf',
+                'pageType' => 'download'
+            ],
         ];
     }
 
