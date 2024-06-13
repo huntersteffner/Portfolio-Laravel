@@ -23,6 +23,12 @@ class Navbar extends Component
                 'pageType' => '/'
             ],
             [
+                'label' => 'About Me',
+                'download' => false,
+                'url' => '/about',
+                'pageType' => 'about'
+            ],
+            [
                 'label' => 'Portfolio',
                 'download' => false,
                 'url' => '/portfolio',

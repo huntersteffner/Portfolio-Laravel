@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-resuable.hero-image
-    {{-- https://unsplash.com/photos/turned-on-laptop-computer-BMnhuwFYr7w --}}
-      :image="'/img/computer-with-code.jpg'"
+    {{-- https://unsplash.com/photos/people-walking-near-brown-concrete-building-during-daytime-fAM7KQ2Eunk --}}
+      :image="'/img/cusco.jpg'"
       :altText="'Portfolio'"
       :header="'Some of My Latest Work'"
     ></x-resuable.hero-image>
@@ -31,7 +31,7 @@
         <div class="mt-8">
             {{-- https://unsplash.com/photos/a-view-of-a-city-with-skyscrapers-in-the-background-krhqUywbj-U --}}
             {{-- <img class="w-full rounded-lg" src="{{'/img/charlotte-buildings.jpg'}}" alt="Sunrise in Uptown Charlotte"> --}}
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="{{'/img/Joshua-Tree.jpg'}}" alt="Hunter and his wife Grace">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="{{'/img/Joshua-Tree.jpg'}}" alt="Hunter and his wife Grace in Joshua Tree National Park">
         </div>
     </div>
 </x-app-layout>
