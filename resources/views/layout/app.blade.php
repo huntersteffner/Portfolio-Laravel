@@ -6,6 +6,7 @@
 
         <title>Hunter Steffner Web Development</title>
 
+        <script src="//unpkg.com/alpinejs" defer></script>
         @vite('resources/css/app.css')
         <!-- Styles -->
         
