@@ -1,7 +1,12 @@
 <x-app-layout>
+    <x-resuable.hero-image
+        :image="'https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Patrick-Star.SpongeBob-SquarePants.webp'"
+        :altText="'Patrick'"
+        :header="'Blank'"
+    ></x-resuable.hero-image>
     <x-home.hero></x-home.hero>
     <x-home.about></x-home.about>
-    <x-home.call-to-action></x-home.call-to-action>
     <x-home.skills></x-home.skills>
     <x-home.portfolio></x-home.portfolio>
+    <x-home.call-to-action></x-home.call-to-action>
 </x-app-layout>

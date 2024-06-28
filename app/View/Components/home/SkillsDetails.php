@@ -17,7 +17,7 @@ class SkillsDetails extends Component
     {
         $this->skills = [
             [
-                'skill' => 'JavaScript/TypeScript',
+                'skill' => 'JavaScript',
                 'description' => 'My first programming language',
                 'image' => 'img/skills/JavaScript-logo.png',
                 'altText' => 'Javascript Logo'

@@ -49,6 +49,11 @@ class Navbar extends Component
         ];
     }
 
+    public function changeVar()
+    {
+        $this->testString = "Hunter Steffner";
+    }
+
     /**
      * Get the view / contents that represent the component.
      */
