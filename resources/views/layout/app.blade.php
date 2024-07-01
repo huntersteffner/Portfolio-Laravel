@@ -13,7 +13,7 @@
     </head>
     <body>
         <x-layout.navbar></x-layout.navbar>
-        <div class="bg-white dark:bg-gray-900">
+        <div class="bg-neutral-200 text-gray-900 dark:bg-stone-800 dark:text-white">
             {{$slot}}
         </div>
         <x-layout.footer></x-layout.footer>

@@ -1,15 +1,15 @@
-<section class="pb-4 border-2 border-solid border-white rounded-lg relative">
+<section class="pb-4 border-2 border-solid border-white rounded-lg relative dark:bg-gray-900">
   <div class="h-[15rem] w-full">
     <img class="object-cover h-full w-full rounded-t-md" src="{{$item['image']}}" alt="{{$item['altText']}}">
   </div>
   <div class="absolute top-0 left-0 px-2 py-1 text-white {{$item['projectType'] == 'Professional Work' ? 'bg-red-700' : 'bg-green-700'}} rounded opacity-85">
     <p class="text-lg font-bold">{{$item['projectType']}}</p>
   </div>
-  <h3 class="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
+  <h3 class="text-2xl font-bold leading-tight">
     {{$item['title']}}
   </h3>
   <div class="h-[12rem]">
-    <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
+    <p class="text-lg font-normal">
       {{$item['description']}}
     </p>
   </div>

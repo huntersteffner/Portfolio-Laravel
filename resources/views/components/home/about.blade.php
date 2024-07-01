@@ -1,8 +1,8 @@
 <section>
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">A Little About Me</h2>
-            <p>I am a Full-Stack Web Developer based out of Charlotte North Carolina. My professional work consists of a full-time position at Electrolux and Freelance Web Projects.</p>
+        <div class="sm:text-lg">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold">A Little About Me</h2>
+            <p class="max-w-2xl mb-6 lg:mb-8 md:text-lg lg:text-xl">I am a Full-Stack Web Developer based out of Charlotte North Carolina. My professional work consists of a full-time position at Electrolux and Freelance Web Projects.</p>
             <a href="/about" class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Read More About Me</a>
             <a href="/portfolio" class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">See My Portfolio</a>
         </div>

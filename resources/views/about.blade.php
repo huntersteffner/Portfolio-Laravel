@@ -6,8 +6,8 @@
       :header="'Some of My Latest Work'"
     ></x-resuable.hero-image>
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">A Little About Me</h2>
+        <div class="space-y-2 sm:text-lg">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold">A Little About Me</h2>
             <p>I was born and raised in Atlanta, Georgia and currently live in Charlotte, North Carolina with my beautiful Peruvian wife.</p>
             <p>
               I completed my undergradate degree at Georgia Southern University in 2017 with a Major in Logistics and Minor in Spanish. (Sí, puedo
