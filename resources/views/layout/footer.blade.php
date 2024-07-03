@@ -1,4 +1,4 @@
-<footer class="bg-white shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-900 antialiased">
+<footer class="bg-white shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-900  dark:text-white antialiased">
     <p class="mb-4 text-sm text-center sm:mb-0">
         &copy; {{date('Y')}} All rights reserved.
     </p>
