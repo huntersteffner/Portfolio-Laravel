@@ -13,9 +13,9 @@
     </head>
     <body>
         <x-layout.navbar></x-layout.navbar>
-        <div class="bg-neutral-200 text-gray-900 dark:bg-stone-800 dark:text-white">
+        <main class="bg-neutral-200 text-gray-900 dark:bg-stone-800 dark:text-white">
             {{$slot}}
-        </div>
+        </main>
         <x-layout.footer></x-layout.footer>
     </body>
 </html>

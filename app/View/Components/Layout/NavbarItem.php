@@ -8,7 +8,7 @@ use Illuminate\View\Component;
 
 class NavbarItem extends Component
 {
-    public string $navbarItemStyles = 'text-gray-900 py-2 px-4 rounded hover:bg-neutral-200 lg:border-0 lg:px-3 dark:text-white lg:dark:hover:text-white dark:hover:bg-gray-700';
+    public string $navbarItemStyles = 'text-gray-900 py-2 px-4 rounded hover:bg-gray-700 lg:border-0 lg:px-3 dark:text-white lg:dark:hover:text-white dark:hover:bg-gray-700';
     /**
      * Create a new component instance.
      */
