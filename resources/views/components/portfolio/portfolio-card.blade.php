@@ -13,7 +13,7 @@
       {{$item['description']}}
     </p>
   </div>
-  <a href="{{$item['deployedSite']}}" target="_blank" title=""
+  {{-- <a href="{{$item['deployedSite']}}" target="_blank" title=""
     class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
     role="button">
     View Site
@@ -23,9 +23,23 @@
         d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
         clip-rule="evenodd" />
     </svg>
-  </a>
+  </a> --}}
+  <x-resuable.button
+    :btnText="'View Site'"
+    :btnLink="$link"
+    :isPrimary="false"
+    :hasArrow="false"
+    :newTab="true"
+  ></x-resuable.button>
   @if($item['repoAvailable'] == true)
-  <a href="{{$item['repoLink']}}" target="_blank" title=""
+  <x-resuable.button
+    :btnText="'View Repo'"
+    :btnLink="$link"
+    :isPrimary="true"
+    :hasArrow="false"
+    :newTab="true"
+></x-resuable.button>
+  {{-- <a href="{{$item['repoLink']}}" target="_blank" title=""
   class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
   role="button">
   View Repo
@@ -35,6 +49,6 @@
         d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
         clip-rule="evenodd" />
     </svg>
-  </a>
+  </a> --}}
   @endif
 </section>
