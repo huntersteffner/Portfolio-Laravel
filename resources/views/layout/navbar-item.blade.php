@@ -1,7 +1,7 @@
 <li>
     @if($navigationItem['download'] == true)
     <a
-        href="{{$navigationItem['url']}}" class="block py-2 pr-4 pl-3 {{$navbarItemStyles}}"
+        href="{{$navigationItem['url']}}" class="{{$navbarItemStyles}} block"
         download="{{$navigationItem['url']}}"
         >{{$navigationItem['label']}}</a>
     @else

@@ -1,6 +1,6 @@
 <footer class="bg-white shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-900  dark:text-white antialiased">
     <p class="mb-4 text-sm text-center sm:mb-0">
-        &copy; {{date('Y')}} All rights reserved.
+        &copy; {{date('Y')}} All rights reserved. <br>Images from Unsplash
     </p>
     <div class="flex justify-center items-center space-x-1">
       <a href="#" data-tooltip-target="tooltip-facebook" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">

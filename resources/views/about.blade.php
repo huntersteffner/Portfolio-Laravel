@@ -15,13 +15,13 @@
           </p>
           <p>
             After college I began to work at NCR Corporation as a
-            Customer Service Representative for Digital Banking Software. My company's proprietary software fascinated me, so I began to study how computers functioned behind the scenes. While I looked into several different computer topics, I really found my niche when I began learning the basics of Web Development with HTML, CSS, and JavaScript.
+            Customer Service Representative for Digital Banking Software. My company's proprietary software fascinated me, and I wanted to better understand what I was working with, so I started studying how computers functioned behind the scenes. While I looked into several different computer topics, I really found my niche when I began understanding the basics of Web Development with HTML, CSS, and JavaScript.
           </p>
           <p>
             After 4.5 years at NCR, I decided to make a career
-            change and enrolled in a Full-Stack Web Development Bootcamp at Georgia Tech. After completing this course, I worked for a few months as a part-time Teaching Assistant, at a Coding Bootcamp very similar to the one I had studied under. In March 2023, I accepted an offer for a full-time position at Electrolux as an Angular Developer.
+            change and enrolled in a Full-Stack Coding Bootcamp at Georgia Tech. After completing this course, I worked for a few months as a part-time Teaching Assistant, at a Coding Bootcamp very similar to the one I had studied under. In March 2023, I accepted an offer for a full-time position at Electrolux as an E-Commerce Web Developer.
           </p>
-          <p>Any Web Development request that you have, I can fulfill. I understand both Frontend and Backend Web Development. Frameworks of projects I have worked on include Angular, React, Springboot, Laravel, and more. Feel free to check out my projects tab to see what I have been working
+          <p>I'm here to fulfill any Web Development requests you have. I understand how to work with both the Frontend and Backend. Frameworks of projects I have worked on include Angular, React, Springboot, Laravel, and more. Feel free to check out my projects tab to see what I have been working
             on.</p>
           <p>
             If you'd like for me to make your project a success, don't hesitate to reach out to me below.

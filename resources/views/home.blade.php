@@ -1,7 +1,8 @@
 <x-app-layout>
+    {{-- https://unsplash.com/photos/a-lake-in-the-middle-of-a-mountain-range-R0QbOkBF5lU --}}
     <x-resuable.hero-image
-        :image="'https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Patrick-Star.SpongeBob-SquarePants.webp'"
-        :altText="'Patrick'"
+        :image="'/img/mountain-colorado.jpg'"
+        :altText="'Lake next to the base of a mountain in Colorado'"
         :header="'Blank'"
     ></x-resuable.hero-image>
     <x-home.hero></x-home.hero>
