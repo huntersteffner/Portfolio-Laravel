@@ -10,9 +10,16 @@
         <h2 class="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">
           Some of my Work
         </h2>
-        <p class="mt-4 text-base font-normal sm:text-xl">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt incidunt, temporibus dolorum, cum provident, aspernatur necessitatibus porro eius ea ut dolore quo? Itaque recusandae ex cupiditate illum. Voluptatem, quia eveniet.
+        <p class="m-4 text-base font-normal sm:text-xl">
+          Want to see some more of my projects?
         </p>
+        <x-resuable.button
+          :btnText="'Full Portfolio'"
+          :btnLink="'/portfolio'"
+          :isPrimary="false"
+          :hasArrow="true"
+          :newTab="false"
+        ></x-resuable.button>
       </div>
       <div class="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
         @foreach($items as $item)
