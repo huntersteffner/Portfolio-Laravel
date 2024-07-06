@@ -14,3 +14,4 @@ Route::get('/portfolio', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::post('/contact/submit', [\App\Http\Controllers\ContactController::class, 'submit']);

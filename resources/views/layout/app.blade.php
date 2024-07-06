@@ -6,6 +6,8 @@
 
         <title>Hunter Steffner Web Development</title>
 
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
         <script src="//unpkg.com/alpinejs" defer></script>
         @vite('resources/css/app.css')
         <!-- Styles -->
