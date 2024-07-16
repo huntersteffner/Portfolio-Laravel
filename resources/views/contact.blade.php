@@ -8,7 +8,7 @@
     <section>
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center">Send Me a Message</h2>
-            <p class="mb-8 lg:mb-16 text-center sm:text-xl">Need help maintaining a website? Want to set up a website for the first time? Does your online presence need to grow and scale? Please reach out so we can discuss how I can assist.</p>
+            <p class="mb-8 lg:mb-16 text-center text-lg">Need help maintaining a website? Want to set up a website for the first time? Does your online presence need to grow and scale? Please reach out so we can discuss how I can assist.</p>
             <form
                 action="/contact/submit"
                 method="POST"

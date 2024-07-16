@@ -4,7 +4,7 @@
       <h2 class="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">
         Portfolio
       </h2>
-      <p class="mt-4 text-base font-normal sm:text-xl">
+      <p class="mt-4 text-base font-normal text-lg">
         Here are some of the projects I've been working on.
       </p>
     </div>

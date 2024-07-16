@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactConfirmationMail;
 use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -23,6 +24,12 @@ class ContactController extends Controller
             $validated['email'],
             $validated['website'],
             $validated['message']
+        ));
+
+        Mail::to($validated['email'])->
+        send(new ContactConfirmationMail(
+            $validated['name'],
+            $validated['email']
         ));
 
         // Send email

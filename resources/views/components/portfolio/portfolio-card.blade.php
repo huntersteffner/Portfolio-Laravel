@@ -2,13 +2,13 @@
   <div class="h-[15rem] w-full">
     <img class="object-cover h-full w-full rounded-t-md" src="{{$item['image']}}" alt="{{$item['altText']}}">
   </div>
-  <div class="absolute top-0 left-0 px-2 py-1 text-white {{$item['projectType'] == 'Professional Work' ? 'bg-red-700' : 'bg-green-700'}} rounded opacity-85">
+  <div class="absolute top-0 left-0 px-2 py-1 text-white {{$item['projectType'] == 'Professional Work' ? 'bg-red-700' : 'bg-green-700'}} rounded">
     <p class="text-lg font-bold">{{$item['projectType']}}</p>
   </div>
   <h3 class="text-2xl font-bold leading-tight">
     {{$item['title']}}
   </h3>
-  <div class="h-[12rem]">
+  <div class="h-[12rem] text-left px-4">
     <p class="text-lg font-normal">
       {{$item['description']}}
     </p>

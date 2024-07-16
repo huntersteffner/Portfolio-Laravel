@@ -13,7 +13,7 @@
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
                 </svg>
             </button>
-            <div class="justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+            <div class="justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
                 <ul x-show="mobileOpen" class="flex flex-col mt-4 font-medium lg:hidden">
                     @foreach($navigationItems as $navigationItem)
                     <x-layout.navbar-item :navigationItem="$navigationItem"></x-layout.navbar-item>
