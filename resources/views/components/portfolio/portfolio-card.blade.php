@@ -1,4 +1,4 @@
-<section class="pb-4 border-2 border-solid border-white rounded-lg relative dark:bg-gray-900">
+<section class="pb-4 border-2 border-solid border-black rounded-lg relative dark:bg-gray-900 dark:border-white">
   <div class="h-[15rem] w-full">
     <img class="object-cover h-full w-full rounded-t-md" src="{{$item['image']}}" alt="{{$item['altText']}}">
   </div>

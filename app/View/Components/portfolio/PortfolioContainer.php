@@ -24,7 +24,7 @@ class PortfolioContainer extends Component
                 'repoAvailable' => false,
                 'repoLink' => '',
                 'deployedSite' => 'https://www.frigidaire.com/en/',
-                'image' => 'img/portfolio/Frigidaire.PNG',
+                'image' => 'img/portfolio/Frigidaire.jpg',
                 'altText' => 'Frigidaire Ecommerce Homepage',
                 'projectType' => 'Professional Work'
             ],
@@ -35,7 +35,7 @@ class PortfolioContainer extends Component
                 'repoAvailable' => false,
                 'repoLink' => '',
                 'deployedSite' => 'https://www.electrolux.com/en/',
-                'image' => 'img/portfolio/Electrolux.PNG',
+                'image' => 'img/portfolio/Electrolux.jpg',
                 'altText' => 'Electrolux Ecommerce Homepage',
                 'projectType' => 'Professional Work'
             ],
@@ -46,7 +46,7 @@ class PortfolioContainer extends Component
                 'repoAvailable' => true,
                 'repoLink' => 'https://github.com/huntersteffner/bnb-network',
                 'deployedSite' => 'https://bnb-network.vercel.app/',
-                'image' => 'img/portfolio/Bnb-Network.png',
+                'image' => 'img/portfolio/Bnb-Network.jpg',
                 'altText' => 'BNB Network - A mockup of a room sharing website',
                 'projectType' => 'Personal Project'
             ],
