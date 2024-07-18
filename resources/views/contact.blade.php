@@ -20,13 +20,18 @@
                         email: '',
                         website: '',
                         message: '',
+                        source: ''
                     },
                     errors: {},
                     successMessage: '',
+                    displayError: false,
 
                     submitForm(event) {
                         this.successMessage = ''
+                        this.displayError = ''
                         this.errors = {}
+
+                        console.log(this.formData)
 
                         fetch(`/contact/submit`, {
                             method: 'POST',
@@ -49,6 +54,7 @@
                                 email: '',
                                 website: '',
                                 message: '',
+                                source: ''
                             }
                             this.successMessage = 'Thank you for your request.'
                         })
@@ -56,6 +62,7 @@
                             const res = await response.json()
                             if (response.status === 422) {
                                 this.errors = res.errors
+                                this.displayError = res.message
                             }
                             console.log(res)
                         })
@@ -66,6 +73,9 @@
                 >
                 <template x-if="successMessage">
                     <div x-text="successMessage" class="py-4 px-6 bg-green-600 text-gray-100 mb-4"></div>
+                </template>
+                <template x-if="displayError">
+                    <div x-text="displayError" class="py-4 px-6 bg-red-600 text-gray-100 mb-4"></div>
                 </template>
                 @csrf
                 <div>
@@ -85,8 +95,8 @@
                     <textarea id="message" rows="6" x-model="formData.message" class="block p-2.5 w-full text-sm bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-100 dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
                 </div>
                 <div>
-                    <label for="website" class="block mb-2 text-sm font-medium">How did you hear about my services?</label>
-                    <input type="text" id="website" class="block p-3 w-full text-sm bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-100 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="I heard from...">
+                    <label for="source" class="block mb-2 text-sm font-medium">How did you hear about my services?</label>
+                    <input type="text" id="source" x-model="formData.source" class="block p-3 w-full text-sm bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-100 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="I heard from...">
                 </div>
                 <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
             </form>

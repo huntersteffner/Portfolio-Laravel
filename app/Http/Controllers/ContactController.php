@@ -14,8 +14,9 @@ class ContactController extends Controller
         $validated = $request->validate([
             'name' => 'required',
             'email' => ['required', 'email'],
-            'website' => 'required',
-            'message' => 'required'
+            'website' => '',
+            'message' => 'required',
+            'source' => ''
         ]);
 
         Mail::to('huntersteffner@gmail.com')->
@@ -23,13 +24,17 @@ class ContactController extends Controller
             $validated['name'],
             $validated['email'],
             $validated['website'],
-            $validated['message']
+            $validated['message'],
+            $validated['source']
         ));
 
         Mail::to($validated['email'])->
         send(new ContactConfirmationMail(
             $validated['name'],
-            $validated['email']
+            $validated['email'],
+            $validated['website'],
+            $validated['message'],
+            $validated['source']
         ));
 
         // Send email

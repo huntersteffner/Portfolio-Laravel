@@ -19,8 +19,9 @@ class ContactMail extends Mailable
     public function __construct(
         public string $name,
         public string $email,
-        public string $website,
-        public string $body
+        public $website,
+        public string $body,
+        public $source
     )
     {
         //

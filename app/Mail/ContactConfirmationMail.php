@@ -19,6 +19,9 @@ class ContactConfirmationMail extends Mailable
     public function __construct(
         public string $name,
         public string $email,
+        public $website,
+        public string $body,
+        public $source
     )
     {
         //
