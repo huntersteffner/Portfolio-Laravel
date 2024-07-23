@@ -20,7 +20,7 @@ class portfolio extends Component
             [
                 'title' => 'Frigidaire',
                 'category' => ['Professional Work', 'Angular', 'Bootstrap'],
-                'description' => 'This is the main site I work on for my full-time position at Electrolux. It is an ecommerce site for Frigidaire appliances.',
+                'description' => 'This is the main site I work on for my full-time position at Electrolux. It is an E-commerce site for Frigidaire appliances.',
                 'repoAvailable' => false,
                 'repoLink' => '',
                 'deployedSite' => 'https://www.frigidaire.com/en/',
@@ -31,7 +31,7 @@ class portfolio extends Component
             [
                 'title' => 'Electrolux',
                 'category' => ['Professional Work', 'Angular', 'Bootstrap'],
-                'description' => 'This is a site I regularly work on for my full-time position at Electrolux. It is an ecommerce site for Electrolux appliances.',
+                'description' => 'This is a site I regularly work on for my full-time position at Electrolux. It is an E-commerce site for Electrolux appliances.',
                 'repoAvailable' => false,
                 'repoLink' => '',
                 'deployedSite' => 'https://www.electrolux.com/en/',
