@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components\resuable;
+namespace App\View\Components\Resuable;
 
 use Closure;
 use Illuminate\Contracts\View\View;
