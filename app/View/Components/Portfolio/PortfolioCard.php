@@ -9,6 +9,7 @@ use Illuminate\View\Component;
 class PortfolioCard extends Component
 {
     public string $link = '';
+    public string $repoLink = '';
     /**
      * Create a new component instance.
      */
@@ -17,6 +18,7 @@ class PortfolioCard extends Component
         )
     {
         $this->link = $item['deployedSite'];
+        $this->repoLink = $item['repoLink'];
     }
 
     /**
