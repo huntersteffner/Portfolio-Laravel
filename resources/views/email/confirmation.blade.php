@@ -1,6 +1,6 @@
 <div style="font-family: sans-serif;">
     <h2>Your Message Has Been Received</h2>
-    <p>Thank you {{$name}} for reaching out to me. I follow back up with you soon.</p>
+    <p>Thank you {{$name}} for reaching out to me. I will follow back up with you soon.</p>
     <p>Please don't respond to this email as it is not monitored.</p>
     <p>Hunter Steffner</p>
     <div style="padding: 5px; background-color: rgb(250, 247, 247); color: #000;">

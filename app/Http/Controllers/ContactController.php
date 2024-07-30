@@ -19,7 +19,8 @@ class ContactController extends Controller
             'source' => ''
         ]);
 
-        Mail::to('huntersteffner@gmail.com')->
+        Mail::to('hunter@huntersteffnerwebdev.com')->
+        bcc('huntersteffner@gmail.com')->
         send(new ContactMail(
             $validated['name'],
             $validated['email'],
